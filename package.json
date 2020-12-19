@@ -1,0 +1,29 @@
+{
+  "name": "MERN-Stack1",
+  "version": "1.0.0",
+  "description": "deneme",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faltun8/MERN-Stack1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faltun8/MERN-Stack1/issues"
+  },
+  "homepage": "https://github.com/faltun8/MERN-Stack1#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
