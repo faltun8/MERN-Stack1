@@ -1,3 +1,1 @@
-# MERN-Stack1
-
-deneme
+# mern-stack
