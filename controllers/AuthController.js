@@ -42,7 +42,7 @@ exports.authLogin = async (req, res) => {
 
   // Field Validation
   const validationErr = validationResult(req);
-  if (validationErr?.errors?.length > 0) {
+  if (validationErr.errors.length > 0) {
     return res.status(400).json({ errors: validationErr.array() });
   }
 
