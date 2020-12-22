@@ -11,7 +11,7 @@ connectDB();
 app.use(express.json());
 app.use("/api", router);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 app.listen(port, () => {
   console.log(`I'm listening on port ${port}`);
 });
